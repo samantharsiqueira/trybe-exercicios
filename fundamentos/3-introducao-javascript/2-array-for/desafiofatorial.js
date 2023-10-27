@@ -6,6 +6,10 @@ Exemplo de 4 fatorial:
 
 Com base nessas informações, crie um algoritmo que imprima na tela o fatorial de 10. */
 
-let number = 1;
+let fatorial = 1;
  
-for (index = 0 )
+for (index = 10 ; index > 0; index -=1){
+  fatorial *= index;
+};
+
+console.log(fatorial);

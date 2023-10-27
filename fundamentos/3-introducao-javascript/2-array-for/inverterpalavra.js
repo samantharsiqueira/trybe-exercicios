@@ -2,4 +2,15 @@
 
 De olho na dica 👀: Pesquise sobre os seguintes métodos: split(), reverse() e join();*/
 
-let word = 'tryber';
+let word = '';
+let wordReverse = '';
+
+function verifyPalindrome(word) {
+  reverseWord = word.split('').reverse().join('');
+  if (word === wordReverse){
+  return (true)
+} else if (word !== wordReverse){
+  return (false)
+}}
+
+console.log(verifyPalindrome('arara'));
