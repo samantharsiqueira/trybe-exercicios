@@ -114,6 +114,15 @@
       // aqui colocmoas no dom no lugar que aparecera no DOM 
       rightContent.appendChild(ul);
 
+      for(let index = 0; index < 3; index += 1) {
+        const h3 = document.createElement('h3');
+        h3.innerText = index;
+        mainContent.appendChild(h3);
+      }
+
+      title.classList.add('title');
+      h3.classList.add('description');
+      
 
     </script>
   </body>
