@@ -13,7 +13,7 @@ function handleBMI(weight, height) {
 
 // A função main é o ponto de partida do nosso programa
 function main() {
-  const weight = readline.questionInt('What\'s your weight? (kg) ');
+  const weight = readline.questionFloat('What\'s your weight? (kg) ');
    const height = readline.questionInt('What\'s your height? (cm) ');
 
    const bmi = handleBMI(weight, height);
